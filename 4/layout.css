@@ -1,0 +1,53 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+h1 {
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    color: gray;
+    padding-bottom: 10px;
+}
+#container {
+    background-color: #CCCCCC;
+    color: black;
+}
+.palkit {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.palkit > * {
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 15px;
+}
+ol {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+figure {
+    display: block;
+}
+figure img {
+      max-width: 100%;
+}
+#placeholder {
+    border: solid 10px white;
+    margin: 10px;
+}
+#description {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
